@@ -3,7 +3,7 @@ Program for the Inorder traversal of a binary tree
 without recursion using stack(list)
 '''
 class Node:
-    def __init__(Self,key):
+    def __init__(self,key):
         self.key = key
         self.left = None
         self.right = None
@@ -31,9 +31,9 @@ def inorder(root):
       4    5  2   """
   
 root = Node(5) 
-root.left = Node(2) 
+root.left = Node(6) 
 root.right = Node(3)
-root.left = Node(2) 
+root.right.left = Node(2) 
 root.left.left = Node(4) 
 root.left.right = Node(5) 
 
