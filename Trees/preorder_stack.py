@@ -4,7 +4,6 @@ class Node:
         self.right = None
         self.left = None
 
-\
 '''
 we use a stack and push the right node first because we have to pop the left child
 first for the preorder
